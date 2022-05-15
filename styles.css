@@ -56,3 +56,27 @@ header h1{
 header p{
     color: var(--gray);line-height: 30px;width: 60%;text-align: center;
 }
+
+section{
+    display: flex;justify-content: space-between;
+    width: 90vw;margin: 0 auto;gap: 20px;
+}
+
+section .metrics{width: 25%;}
+
+section .metrics h1{
+    color: var(--secondary-color);font-weight: 600;font-size: 4rem;
+}
+
+section .metrics span{
+    color:var(--primary-color);font-weight: 600;font-size: 1.1rem;line-height: 28px;
+}
+
+section .metrics p{
+    color: var(--gray);
+}
+
+@media only screen and (max-width: 420px){
+    section{flex-direction: column;width:100vw;}
+    section .metrics{width: 100%;}
+}
