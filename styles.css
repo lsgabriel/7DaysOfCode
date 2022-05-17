@@ -103,3 +103,25 @@ section .metrics p{
     width: 87%;height: 400px;
     margin: 2.3rem auto;
 }
+
+.jobs{
+    width: 80%;margin: 0 auto;
+}
+
+.jobs h2{
+    font-weight: 500;color: var(--primary-color);font-size: 1.25rem;margin-bottom: 1.5rem;
+}
+
+.job-card{
+    width: 45rem;height: 8.5rem;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;margin-bottom: 1.3rem;
+    padding: 1.5rem;
+}
+
+.job-card p{
+    font-weight: 500;color: var(--primary-color);font-size: 1.1rem;line-height: 2.3rem;
+}
+
+.job-card span{font-weight: 500;color: var(--gray);line-height: 2.1rem;}
+.job-card span:nth-of-type(even){margin-left: 1.1rem;}
