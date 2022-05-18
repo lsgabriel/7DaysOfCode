@@ -125,3 +125,19 @@ section .metrics p{
 
 .job-card span{font-weight: 500;color: var(--gray);line-height: 2.1rem;}
 .job-card span:nth-of-type(even){margin-left: 1.1rem;}
+
+aside{
+    background-color: rgba(195, 25, 25, 0.03);border-radius: 1rem;
+    width: 87%;margin: 6rem auto;text-align: center;
+}
+
+aside span{
+    font-weight: 600;color: var(--secondary-color);font-size: 0.9rem;
+}
+
+aside h1{
+    font-weight: 500;color: var(--primary-color);width: 80%;margin: 1rem auto;letter-spacing: -0.02em;
+}
+
+aside .name{font-weight: 500;color:var(--primary-color);margin-top: 1rem;}
+aside .job{color: var(--gray);font-size: 0.9rem;margin-top: 0.25rem;}
